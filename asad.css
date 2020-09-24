@@ -1,0 +1,308 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav>a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 30px;
+}
+
+
+/* SECTION BIO */
+
+.bg {
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    position: relative;
+}
+
+.bio {
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.bio .content {
+    border-radius: 15px;
+    padding: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    width: 300px;
+    height: 500px;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: black;
+}
+
+.titre {
+    font-size: 20px;
+    padding-left: 7%;
+    text-align: justify;
+}
+
+.see-more {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.see-more:hover {
+    background-color: red;
+    color: white;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.wave img {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+    transform: rotateY(180deg);
+}
+
+/* INSPIRATION */
+.article-bg {
+    position: relative;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+.wave-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.wave-2 img {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+    transform: rotateY(180deg);
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0;
+    color: black;
+    font-weight: 900;
+}
+
+.inspired {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: inline-flex;
+    padding-bottom: 5%;
+}
+.tracking-in-contract {
+	-webkit-animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	 animation: tracking-in-contract 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+.number {
+    font-size: 5rem;
+    color: red;
+    font-weight: 900;
+    padding: 50px;
+}
+
+.quotes {
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+/* FILM */
+.film {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: inline-flex;
+}
+
+.film-2 {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: inline-flex;
+    padding-bottom: 7%;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie img {
+    height: 320px;
+}
+
+.intertitre {
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/* LETTERS */
+.letter-bg {
+    position: relative;
+}
+.wave-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.wave-3 img {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 133px;
+    transform: rotateY(180deg);
+}
+.letter input {
+    width: 500px;
+    height: 60px;
+    border: solid 2px black;
+    border-radius: 10px;
+}
+.letter h4 {
+    font-size: 50px; 
+    font-weight: 900;
+    color: red;
+}
+.subcribe {
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}
+.subcribe:hover {
+    background-color: red;
+}
+/* FOOTER */
+/* START OF SOCIAL MEDIA */
+.social-media {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.icons h4 {
+    font-size: 50px; 
+    font-weight: 900;
+    color: red;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: blue;
+    color: white;
+    border-radius: 20%;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: red;
+    color: white;
+    border-radius: 20%;
+}
+
+/* Linkedin */
+.fa-instagram {
+    background: yellow; 
+    color: white;
+    border-radius: 20%;
+}
+/* END OF SOCIAL MEDIA */
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */ /* RESPONSIVE */
+
